@@ -15,6 +15,7 @@
         'views\my_pet_views.xml',
         r'wizard\batch_update.xml',
         r'views\template.xml',
+        r'views\res_config_settings_views.xml',
     ],
     # 'qweb': ['static/src/xml/*.xml'],
     'installable': True,
