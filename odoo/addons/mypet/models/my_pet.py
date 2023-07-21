@@ -36,4 +36,3 @@ class MyPet(models.Model):
                 pet_records = self.search([('name', '=', pet_name)])
                 if pet_records:
                     raise ValidationError(_("Duplicated pet name @ %s" % pet_name))
-        return super(MyPet, self).create(vals)
